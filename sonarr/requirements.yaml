@@ -1,0 +1,5 @@
+dependencies:
+- name: oauth2-proxy
+  version: 0.4.1
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  condition: auth.enabled
